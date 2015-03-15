@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.CodeFirst.DataAnnotations.Model", "Simpress.CodeFirst.DataAnnotations.Model\Simpress.CodeFirst.DataAnnotations.Model.csproj", "{CC2B693F-A181-4D01-91A4-E5ECAA8AD678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.CodeFirst.DataAnnotations.DataAccess", "Simpress.CodeFirst.DataAnnotations.DataAccess\Simpress.CodeFirst.DataAnnotations.DataAccess.csproj", "{CFD24F4B-B300-4301-8F18-A23749615322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Storage", "Data Storage", "{F00A5616-4CFA-4707-872E-5BA96EE4E960}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access", "Data Access", "{CC273604-9CD5-489E-84A3-B45839C622EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{57B1DE15-94BB-4852-A74C-793EEAEE1211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.CodeFirst.DataAnnotations.Test", "Simpress.CodeFirst.DataAnnotations.Test\Simpress.CodeFirst.DataAnnotations.Test.csproj", "{DA345EA3-0573-44E6-80F3-B1F7BE871472}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC2B693F-A181-4D01-91A4-E5ECAA8AD678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2B693F-A181-4D01-91A4-E5ECAA8AD678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2B693F-A181-4D01-91A4-E5ECAA8AD678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2B693F-A181-4D01-91A4-E5ECAA8AD678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD24F4B-B300-4301-8F18-A23749615322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD24F4B-B300-4301-8F18-A23749615322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD24F4B-B300-4301-8F18-A23749615322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD24F4B-B300-4301-8F18-A23749615322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA345EA3-0573-44E6-80F3-B1F7BE871472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA345EA3-0573-44E6-80F3-B1F7BE871472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA345EA3-0573-44E6-80F3-B1F7BE871472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA345EA3-0573-44E6-80F3-B1F7BE871472}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC2B693F-A181-4D01-91A4-E5ECAA8AD678} = {F00A5616-4CFA-4707-872E-5BA96EE4E960}
+		{CFD24F4B-B300-4301-8F18-A23749615322} = {CC273604-9CD5-489E-84A3-B45839C622EB}
+		{DA345EA3-0573-44E6-80F3-B1F7BE871472} = {57B1DE15-94BB-4852-A74C-793EEAEE1211}
+	EndGlobalSection
+EndGlobal
