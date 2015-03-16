@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1e7e6eaef0ef45209a1c758019ad7340" Name="Diagram1">
+        <EntityTypeShape EntityType="SIMPRESSModel.TB_AMIGO" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="SIMPRESSModel.TB_ESCOLARIDADE" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="SIMPRESSModel.TB_SEXO" Width="1.5" PointX="0.75" PointY="1.25" />
+        <AssociationConnector Association="SIMPRESSModel.FK_TB_AMIGO_TB_SEXO" />
+      </Diagram>
+      <Diagram DiagramId="91522daed85e4c1daf5473f0dbec4302" Name="Escolaridade" >
+      </Diagram>
+      <Diagram DiagramId="b2ed115e6795445899efb5e894073977" Name="Clientes" />
+      <Diagram DiagramId="95a831dc92e24cefa180d976caebe7b0" Name="Fornecedores" />
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
