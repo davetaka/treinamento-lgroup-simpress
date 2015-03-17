@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4367584-CDAE-41A4-8ED0-177500A435FC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Simpress.CodeFirst.FluentApi.DataAccess</RootNamespace>
+    <AssemblyName>Simpress.CodeFirst.FluentApi.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexao.cs" />
+    <Compile Include="Mapping\ClienteMapping.cs" />
+    <Compile Include="Mapping\ItemPedidoMapping.cs" />
+    <Compile Include="Mapping\PedidoMapping.cs" />
+    <Compile Include="Mapping\ProdutoMapping.cs" />
+    <Compile Include="Migrations\201503050037121_InitialCreate.cs" />
+    <Compile Include="Migrations\201503050037121_InitialCreate.Designer.cs">
+      <DependentUpon>201503050037121_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503050107451_AddEnderecoCPF.cs" />
+    <Compile Include="Migrations\201503050107451_AddEnderecoCPF.Designer.cs">
+      <DependentUpon>201503050107451_AddEnderecoCPF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503050116096_FornecedorMigration.cs" />
+    <Compile Include="Migrations\201503050116096_FornecedorMigration.Designer.cs">
+      <DependentUpon>201503050116096_FornecedorMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503050118403_FornecedorMaxMigration.cs" />
+    <Compile Include="Migrations\201503050118403_FornecedorMaxMigration.Designer.cs">
+      <DependentUpon>201503050118403_FornecedorMaxMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503050120359_FornecedorCorrecaoMigration.cs" />
+    <Compile Include="Migrations\201503050120359_FornecedorCorrecaoMigration.Designer.cs">
+      <DependentUpon>201503050120359_FornecedorCorrecaoMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503050123451_FornecedorSETMAXMigration.cs" />
+    <Compile Include="Migrations\201503050123451_FornecedorSETMAXMigration.Designer.cs">
+      <DependentUpon>201503050123451_FornecedorSETMAXMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503050125054_FornecedorSETMAXINTMigration.cs" />
+    <Compile Include="Migrations\201503050125054_FornecedorSETMAXINTMigration.Designer.cs">
+      <DependentUpon>201503050125054_FornecedorSETMAXINTMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503050125340_FornecedorSETMAXINT2Migration.cs" />
+    <Compile Include="Migrations\201503050125340_FornecedorSETMAXINT2Migration.Designer.cs">
+      <DependentUpon>201503050125340_FornecedorSETMAXINT2Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201503052207121_AdicionaCampoFabricante.cs" />
+    <Compile Include="Migrations\201503052207121_AdicionaCampoFabricante.Designer.cs">
+      <DependentUpon>201503052207121_AdicionaCampoFabricante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Mapping\TB_AMIGOMap.cs" />
+    <Compile Include="Models\Mapping\TB_ESCOLARIDADEMap.cs" />
+    <Compile Include="Models\Mapping\TB_SEXOMap.cs" />
+    <Compile Include="Models\SIMPRESSContext.cs" />
+    <Compile Include="Models\TB_AMIGO.cs" />
+    <Compile Include="Models\TB_ESCOLARIDADE.cs" />
+    <Compile Include="Models\TB_SEXO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ClienteRepository.cs" />
+    <Compile Include="Repository\ItemPedidoRepository.cs" />
+    <Compile Include="Repository\PedidoRepository.cs" />
+    <Compile Include="Repository\ProdutoRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="CodeTemplates\ReverseEngineerCodeFirst\Context.tt" />
+    <None Include="CodeTemplates\ReverseEngineerCodeFirst\Entity.tt" />
+    <None Include="CodeTemplates\ReverseEngineerCodeFirst\Mapping.tt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Simpress.CodeFirst.FluentApi.Model\Simpress.CodeFirst.FluentApi.Model.csproj">
+      <Project>{ecc0b69d-572d-42cf-921e-2e16f957a00a}</Project>
+      <Name>Simpress.CodeFirst.FluentApi.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201503050037121_InitialCreate.resx">
+      <DependentUpon>201503050037121_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503050107451_AddEnderecoCPF.resx">
+      <DependentUpon>201503050107451_AddEnderecoCPF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503050116096_FornecedorMigration.resx">
+      <DependentUpon>201503050116096_FornecedorMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503050118403_FornecedorMaxMigration.resx">
+      <DependentUpon>201503050118403_FornecedorMaxMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503050120359_FornecedorCorrecaoMigration.resx">
+      <DependentUpon>201503050120359_FornecedorCorrecaoMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503050123451_FornecedorSETMAXMigration.resx">
+      <DependentUpon>201503050123451_FornecedorSETMAXMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503050125054_FornecedorSETMAXINTMigration.resx">
+      <DependentUpon>201503050125054_FornecedorSETMAXINTMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503050125340_FornecedorSETMAXINT2Migration.resx">
+      <DependentUpon>201503050125340_FornecedorSETMAXINT2Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201503052207121_AdicionaCampoFabricante.resx">
+      <DependentUpon>201503052207121_AdicionaCampoFabricante.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

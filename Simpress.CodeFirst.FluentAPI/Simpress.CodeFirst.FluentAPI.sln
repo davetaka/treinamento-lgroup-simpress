@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.CodeFirst.FluentApi.Model", "Simpress.CodeFirst.FluentApi.Model\Simpress.CodeFirst.FluentApi.Model.csproj", "{ECC0B69D-572D-42CF-921E-2E16F957A00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.CodeFirst.FluentApi.DataAccess", "Simpress.CodeFirst.FluentApi.DataAccess\Simpress.CodeFirst.FluentApi.DataAccess.csproj", "{E4367584-CDAE-41A4-8ED0-177500A435FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.CodeFirst.FluentApi.Test", "Simpress.CodeFirst.FluentApi.Test\Simpress.CodeFirst.FluentApi.Test.csproj", "{DFF056C1-A71A-468E-BCAD-746BE6702B81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E49DB9F6-21D7-43BD-9484-0EDA9215309F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8C8FFD44-B820-4AE6-BB6D-21B3A35119CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6B948C7B-D5F7-4ADA-89B2-72E8AE7BD88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.CodeFirst.FluentApi.Service", "Simpress.CodeFirst.FluentApi.Service\Simpress.CodeFirst.FluentApi.Service.csproj", "{9A64E2AF-A6A3-4ED4-BD83-71F46D03A97A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{FFE8BDC1-5A2D-427F-B459-B5395091375C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpress.Service", "Simpress.Service\Simpress.Service.csproj", "{7B714AAA-F0C8-4A10-8832-EB60CB193A91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECC0B69D-572D-42CF-921E-2E16F957A00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC0B69D-572D-42CF-921E-2E16F957A00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC0B69D-572D-42CF-921E-2E16F957A00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC0B69D-572D-42CF-921E-2E16F957A00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4367584-CDAE-41A4-8ED0-177500A435FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4367584-CDAE-41A4-8ED0-177500A435FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4367584-CDAE-41A4-8ED0-177500A435FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4367584-CDAE-41A4-8ED0-177500A435FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF056C1-A71A-468E-BCAD-746BE6702B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF056C1-A71A-468E-BCAD-746BE6702B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF056C1-A71A-468E-BCAD-746BE6702B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF056C1-A71A-468E-BCAD-746BE6702B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A64E2AF-A6A3-4ED4-BD83-71F46D03A97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A64E2AF-A6A3-4ED4-BD83-71F46D03A97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A64E2AF-A6A3-4ED4-BD83-71F46D03A97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A64E2AF-A6A3-4ED4-BD83-71F46D03A97A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B714AAA-F0C8-4A10-8832-EB60CB193A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B714AAA-F0C8-4A10-8832-EB60CB193A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B714AAA-F0C8-4A10-8832-EB60CB193A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B714AAA-F0C8-4A10-8832-EB60CB193A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECC0B69D-572D-42CF-921E-2E16F957A00A} = {E49DB9F6-21D7-43BD-9484-0EDA9215309F}
+		{E4367584-CDAE-41A4-8ED0-177500A435FC} = {8C8FFD44-B820-4AE6-BB6D-21B3A35119CD}
+		{9A64E2AF-A6A3-4ED4-BD83-71F46D03A97A} = {6B948C7B-D5F7-4ADA-89B2-72E8AE7BD88C}
+		{7B714AAA-F0C8-4A10-8832-EB60CB193A91} = {FFE8BDC1-5A2D-427F-B459-B5395091375C}
+	EndGlobalSection
+EndGlobal
