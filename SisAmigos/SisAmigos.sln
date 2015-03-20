@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SisAmigos", ".", "{E1D2C999-5D07-40A6-8CDB-150497EE156B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/SisAmigos"
+		Debug.AspNetCompiler.PhysicalPath = "..\SisAmigos\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SisAmigos\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SisAmigos"
+		Release.AspNetCompiler.PhysicalPath = "..\SisAmigos\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SisAmigos\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1746"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D2C999-5D07-40A6-8CDB-150497EE156B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D2C999-5D07-40A6-8CDB-150497EE156B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
